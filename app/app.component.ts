@@ -9,7 +9,7 @@ import 'rxjs/add/operator/map'
 
 @Component({
     selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1><button (click)=cargar()>Carcaglo</button>'
+    templateUrl: 'inicio.html'
 })
 @Injectable()
 export class AppComponent {

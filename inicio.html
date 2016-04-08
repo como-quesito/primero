@@ -1,0 +1,22 @@
+
+<h1>Aplicacionsita angulario mongo</h1>
+<br>
+<button class="btn btn-danger" (click)=cargar()>Carcaglo</button>
+<br>
+<table class="table">
+     <thead>
+         <tr class="danger">
+             <th>Id del mensaje</th>
+             <th>Titulo</th>
+             <th>Cuerpo del mensaje</th>
+         </tr>
+     </thead>
+     <tbody>
+       <tr class="success" *ngFor="#mensaje of mensajes ">
+             <td>{{mensaje.id}}</td>
+             <td>{{mensaje.titulo}}</td>
+             <td>{{mensaje.cuerpo}}</td>
+         </tr>
+
+     </tbody>
+ </table>
